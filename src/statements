@@ -1,0 +1,32 @@
+conditional statements
+
+if
+if else
+if else if
+nested if
+switch
+
+ if else syntax
+if(condition){
+if condition is true
+}
+else{
+else condition is false
+}
+
+if else if syntax //if we have multiple conditions
+if(condition 1){
+    if(condition){
+
+    }
+}
+else if (conditions 2){
+
+} else if(condition 3){
+
+}else {
+
+}
+
+Q4 fint the largest among 4no. 10 20 4 6
+Q4 fint the smallest among 4no.
