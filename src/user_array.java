@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class practice1_array {
+public class user_array {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         int a;
