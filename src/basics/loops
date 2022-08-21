@@ -1,0 +1,8 @@
+
+1: while
+2: dowhile
+3: for
+
+* initialization = int a  0;
+* condition     = a<=10
+* operation      = + - * / printing if for
