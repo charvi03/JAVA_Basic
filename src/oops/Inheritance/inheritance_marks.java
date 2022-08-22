@@ -62,7 +62,7 @@ class Grades extends Marks {
     void grades() {
         System.out.println("name is " + name);
         System.out.println("rollno is " + rollno);
-        System.out.println("phone numbr " + ph);
+        System.out.println("phone number " + ph);
         System.out.println("total marks are : " + total);
         System.out.println("percentage is : " + per + "%");
 
