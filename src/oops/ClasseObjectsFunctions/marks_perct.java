@@ -11,25 +11,24 @@ public class marks_perct {
         System.out.println("enter your roll no.:");
         int r = sc.nextInt();
         System.out.println("Enter your board");
-        String  bor=sc.next();
+        String bor = sc.next();
 
         System.out.println("Enter your maths marks");
-        int sub1= sc.nextInt();
+        int sub1 = sc.nextInt();
         System.out.println("Enter your acc marks");
-        int sub2= sc.nextInt();
+        int sub2 = sc.nextInt();
         System.out.println("Enter your IT marks");
-        int sub3= sc.nextInt();
+        int sub3 = sc.nextInt();
         System.out.println("Enter your eco marks");
-        int sub4= sc.nextInt();
+        int sub4 = sc.nextInt();
         System.out.println("Enter your mgt marks");
-        int sub5= sc.nextInt();
-
+        int sub5 = sc.nextInt();
 
 
         details.name(n);
         details.rollNo(r);
         details.board(bor);
-        details.sub(sub1,sub2,sub3,sub4,sub5);
+        details.sub(sub1, sub2, sub3, sub4, sub5);
 
     }
 }
@@ -59,9 +58,9 @@ class Details {
         System.out.println("Your IT marks are " + sub3);
         System.out.println("Your eco marks are " + sub4);
         System.out.println("Your mgt marks are " + sub5);
-        total=sub1+sub2+sub3+sub4+sub5;
+        total = sub1 + sub2 + sub3 + sub4 + sub5;
         System.out.println("total marks are " + total);
-        System.out.println("percentage is " + (total/500)*100 + "%");
+        System.out.println("percentage is " + (total / 500) * 100 + "%");
 
 
     }
