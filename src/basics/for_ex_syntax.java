@@ -1,3 +1,5 @@
+package basics;
+
 public class for_ex_syntax {
     public static void main(String[] args) {
 

@@ -1,10 +1,13 @@
 package oops.Abstraction;
 
+import java.util.Scanner;
+
 public class bank_interest {
     public static void main(String[] args) {
-        Hdfc obj1=new Hdfc();
-        Sbi obj2=new Sbi();
-        Pnb obj3=new Pnb();
+
+        Hdfc obj1 = new Hdfc();
+        Sbi obj2 = new Sbi();
+        Pnb obj3 = new Pnb();
         obj1.getInterest();
         obj2.getInterest();
         obj3.getInterest();
@@ -12,13 +15,14 @@ public class bank_interest {
 }
 
 abstract class Bank {
-    int amt = 100000;
+  int amt=100000;
 
     abstract void getInterest();
 }
 
+
 class Hdfc extends Bank {
-    double b = (amt * 7) / 100;
+        double b = (amt * 7) / 100;
 
     void getInterest() {
         System.out.println("interest is " + b);

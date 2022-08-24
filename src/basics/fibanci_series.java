@@ -1,3 +1,5 @@
+package basics;
+
 public class fibanci_series {
     public static void main(String[] args) {
         int a = 0,b=1;

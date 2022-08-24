@@ -1,3 +1,5 @@
+package basics;
+
 public class array_q2 {
     public static void main(String[] args) {
         //question2 --whether a int is there or not in array

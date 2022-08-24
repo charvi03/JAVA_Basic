@@ -1,3 +1,5 @@
+package basics;
+
 public class array_q3 {
     public static void main(String[] args) {
         //question3 average of marks

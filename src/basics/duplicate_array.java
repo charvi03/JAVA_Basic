@@ -1,3 +1,5 @@
+package basics;
+
 public class duplicate_array {
     public static void main(String[] args) {
         int[] arr= {3,1,10,3,15,6,15,17,1,9};

@@ -1,3 +1,5 @@
+package basics;
+
 public class array_q4 {
     public static void main(String[] args) {
         //ques4-- 2 x 3 matrix

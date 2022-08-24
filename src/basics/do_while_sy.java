@@ -1,3 +1,5 @@
+package basics;
+
 public class do_while_sy {
     public static void main(String[] args) {
         int a= 1;

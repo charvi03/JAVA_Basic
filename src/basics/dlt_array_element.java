@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.Scanner;
 
 public class dlt_array_element {

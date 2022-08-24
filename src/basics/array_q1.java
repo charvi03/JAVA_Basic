@@ -1,3 +1,5 @@
+package basics;
+
 public class array_q1 {
     public static void main(String[] args) {
         //question1 -- sum of marks

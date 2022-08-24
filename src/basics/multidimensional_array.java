@@ -1,3 +1,5 @@
+package basics;
+
 public class multidimensional_array {
     public static void main(String[] args) {
         int[][] flats;

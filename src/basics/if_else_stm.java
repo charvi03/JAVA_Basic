@@ -1,3 +1,5 @@
+package basics;
+
 public class if_else_stm {
     public static void main(String[] args) {
         int a = 10;
