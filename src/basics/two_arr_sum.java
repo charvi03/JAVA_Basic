@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.Scanner;
 
 public class two_arr_sum {
