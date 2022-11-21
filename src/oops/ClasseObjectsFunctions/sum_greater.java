@@ -36,7 +36,7 @@ class A
 }
 class main
 {
-	public static void main(String args[])
+	public static void main(String[] args)
 	{
 	A o=new A();
 	o.setValue();

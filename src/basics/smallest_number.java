@@ -1,6 +1,6 @@
 import java.util.Scanner;
 class smallest_number{
-		public static void main(String args[]){
+		public static void main(String[] args){
 		Scanner sc= new Scanner(System.in);  
                int a,b,c,d;
                  System.out.println("Enter four numbers");

@@ -10,8 +10,6 @@ public class tryCatch {
             System.out.println(hello1);
         }catch (Exception e){
             System.out.println(e);
-        }finally {
-
         }
     }
 }

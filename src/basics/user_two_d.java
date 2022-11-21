@@ -10,7 +10,7 @@ public class user_two_d {
         int Sizec = sc.nextInt();
         System.out.println(" Please Enter all the elements of rows and coulmns : ");
 
-        int ar[][] = new int[Sizer][Sizec];
+        int[][] ar = new int[Sizer][Sizec];
 
         for (i = 0; i < Sizer; i++) {
             for (j = 0; j < Sizec; j++) {
@@ -26,7 +26,7 @@ public class user_two_d {
 
         System.out.println(" Please Enter all the elements of rows and coulmns : ");
 
-        int arr[][] = new int[Sizer2][Sizec2];
+        int[][] arr = new int[Sizer2][Sizec2];
 
         for (k = 0; k < Sizer2; k++) {
             for (l = 0; l < Sizec2; l++) {

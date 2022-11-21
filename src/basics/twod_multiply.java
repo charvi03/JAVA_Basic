@@ -10,7 +10,7 @@ public class twod_multiply {
         int col1 = sc.nextInt();
         System.out.println(" Please Enter all the elements of rows and columns: ");
 
-        int ar[][] = new int[row1][col1];
+        int[][] ar = new int[row1][col1];
 
         for (i = 0; i < row1; i++) {
             for (j = 0; j < col1; j++) {
@@ -26,7 +26,7 @@ public class twod_multiply {
 
         System.out.println(" Please Enter all the elements of rows and columns : ");
 
-        int arr[][] = new int[row2][col2];
+        int[][] arr = new int[row2][col2];
 
         for (int k = 0; k < row2; k++) {
             for (int l = 0; l < col2; l++) {
@@ -67,7 +67,7 @@ public class twod_multiply {
             for (int h = 0; h<row1;h++){
                 for (int u = 0;u<col2;u++)
                     System.out.print(result[h][u] + "\t");
-                System.out.println("");
+                System.out.println();
             }
         }
     }

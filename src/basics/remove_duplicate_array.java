@@ -1,7 +1,7 @@
 public class remove_duplicate_array {
     public static void main(String[] args) {
 
-        int arr[] = {15,4,3,9,1,10,15,1};
+        int[] arr = {15,4,3,9,1,10,15,1};
         for (int i = 0; i < arr.length; i++)
             System.out.print(arr[i] + " ");
 
@@ -30,8 +30,7 @@ public class remove_duplicate_array {
             }
         }
         temp[j++] = arr[length - 1];
-        for (int i = 0; i < j; i++)
-            arr[i] = temp[i];
+        if (j >= 0) System.arraycopy(temp, 0, arr, 0, j);
         return j;
     }
 }

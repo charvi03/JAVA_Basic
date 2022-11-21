@@ -29,12 +29,10 @@ public class merge_array {
         int[] arr3 = new int[length];
 
         //loop to store the elements of first araay into resultant array
-        for (int i = 0; i < arr1.length; i++)
-            arr3[i] = arr1[i];
+        System.arraycopy(arr1, 0, arr3, 0, arr1.length);
 
         //loop to store the elements of second araay into resultant array
-        for (int i = 0; i < arr2.length; i++)
-            arr3[arr1.length + i] = arr2[i];
+        System.arraycopy(arr2, 0, arr3, arr1.length + 0, arr2.length);
 
         for (int i = 0; i < length; i++)
             System.out.print(arr3[i] + " ");

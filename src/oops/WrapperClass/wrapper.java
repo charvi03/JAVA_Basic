@@ -8,6 +8,6 @@ public class wrapper {
         System.out.println(a.charAt(3));
 
         int b = 2456;
-        System.out.println(String.valueOf(b));
+        System.out.println(b);
     }
 }

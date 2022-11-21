@@ -3,7 +3,7 @@ package basics;
 import java.util.Scanner;
 class elect_bill{ 
                 
-        public static void main(String args[]) {
+        public static void main(String[] args) {
          Scanner sc= new Scanner(System.in);  
           int a;
             System.out.println("enter the units consumed");
@@ -12,7 +12,7 @@ class elect_bill{
       	
         	if(a<=100)
 	                     {
-	                    bill=a*1;
+	                    bill= a;
 	                             }
 			else if(a<=200)
 	                       {
