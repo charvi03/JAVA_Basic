@@ -1,3 +1,5 @@
+package basics;
+
 public class two_array {
     public static void main(String[] args) {
         int []arr1={2,3,4,5};

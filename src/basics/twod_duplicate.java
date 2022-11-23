@@ -1,3 +1,5 @@
+package basics;
+
 public class twod_duplicate {
     public static void main(String[] args) {
         int[][] mat1 = {

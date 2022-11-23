@@ -1,3 +1,5 @@
+package basics;
+
 import java.util.Scanner;
 
 public class user_two_d {

@@ -1,3 +1,5 @@
+package basics;
+
 public class while_oddeven {
     public static void main(String[] args) {
         int i=0;
